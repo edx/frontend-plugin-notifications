@@ -38,10 +38,7 @@
     "@fortawesome/free-regular-svg-icons": "^6.6.0",
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
-    "@openedx/paragon": "^22.17.0",
-    "axios-mock-adapter": "1.22.0",
     "classnames": "2.5.1",
-    "core-js": "3.40.0",
     "dompurify": "^3.1.7",
     "jest-environment-jsdom": "^29.7.0",
     "lodash": "4.17.21",
@@ -54,22 +51,22 @@
     "@openedx/frontend-build": "14.4.2",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^14.3.1",
+    "axios-mock-adapter": "1.22.0",
     "glob": "7.2.3",
     "husky": "7.0.4",
     "jest": "29.7.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
-    "regenerator-runtime": "0.14.1",
     "resize-observer-polyfill": "^1.5.1",
     "rosie": "2.1.1",
     "semantic-release": "^21.0.7"
   },
   "peerDependencies": {
-    "@edx/frontend-platform": "^7.0.1 || ^8.0.0",
-    "@openedx/paragon": "^22.17.0",
+    "@edx/frontend-platform": "^8.0.0",
+    "@openedx/paragon": "^23.0.0",
     "prop-types": "^15.5.10",
-    "react": "^17.0.2 || ^18.0.0",
-    "react-dom": "^16.9.0 || ^17.0.0 || ^18.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0"
   }
 }

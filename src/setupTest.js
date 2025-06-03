@@ -1,9 +1,7 @@
-import 'core-js/stable';
-import 'regenerator-runtime/runtime';
-import '@testing-library/jest-dom'; // eslint-disable-line import/no-extraneous-dependencies
+import '@testing-library/jest-dom';
 import React from 'react';
 import PropTypes from 'prop-types';
-import { render as rtlRender } from '@testing-library/react'; // eslint-disable-line import/no-extraneous-dependencies
+import { render as rtlRender } from '@testing-library/react';
 import { getConfig, mergeConfig } from '@edx/frontend-platform';
 import { configure as configureI18n, IntlProvider } from '@edx/frontend-platform/i18n';
 import { configure as configureLogging } from '@edx/frontend-platform/logging';
